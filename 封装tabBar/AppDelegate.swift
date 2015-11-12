@@ -16,6 +16,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+     application.statusBarStyle = .LightContent
+        
+    application.statusBarHidden = false
+        
+        self.window = UIWindow.init(frame: UIScreen.mainScreen().bounds)
+        
+        
+        let  tabBarVc = LMTabBarController()
+        
+        
+        self.window!.rootViewController = tabBarVc
+        
+        
+        
+        
+        
+        self.window!.makeKeyAndVisible()
+        
+        
         return true
     }
 

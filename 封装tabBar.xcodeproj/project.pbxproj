@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		E94ADDDE1BF438CB00777663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94ADDDD1BF438CB00777663 /* AppDelegate.swift */; };
-		E94ADDE01BF438CB00777663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94ADDDF1BF438CB00777663 /* ViewController.swift */; };
-		E94ADDE31BF438CB00777663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94ADDE11BF438CB00777663 /* Main.storyboard */; };
 		E94ADDE51BF438CB00777663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94ADDE41BF438CB00777663 /* Assets.xcassets */; };
 		E94ADDE81BF438CB00777663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94ADDE61BF438CB00777663 /* LaunchScreen.storyboard */; };
 		E94ADDF31BF438CB00777663 /* __tabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94ADDF21BF438CB00777663 /* __tabBarTests.swift */; };
 		E94ADDFE1BF438CB00777663 /* __tabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94ADDFD1BF438CB00777663 /* __tabBarUITests.swift */; };
+		E94ADE0E1BF4392B00777663 /* LMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94ADE0D1BF4392B00777663 /* LMTabBarController.swift */; };
+		E94ADE101BF4394200777663 /* LmNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94ADE0F1BF4394200777663 /* LmNavigationController.swift */; };
+		E94ADE121BF4395800777663 /* OneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94ADE111BF4395800777663 /* OneController.swift */; };
+		E94ADE141BF43B8600777663 /* navBar.png in Resources */ = {isa = PBXBuildFile; fileRef = E94ADE131BF43B8600777663 /* navBar.png */; };
+		E94ADE171BF43D5900777663 /* tabbar_profile_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E94ADE151BF43D5900777663 /* tabbar_profile_selected@2x.png */; };
+		E94ADE181BF43D5900777663 /* tabbar_profile_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E94ADE161BF43D5900777663 /* tabbar_profile_selected@3x.png */; };
+		E94ADE1B1BF43D6500777663 /* tabbar_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E94ADE191BF43D6500777663 /* tabbar_profile@2x.png */; };
+		E94ADE1C1BF43D6500777663 /* tabbar_profile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E94ADE1A1BF43D6500777663 /* tabbar_profile@3x.png */; };
+		E94ADE1E1BF43DF200777663 /* LMTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94ADE1D1BF43DF200777663 /* LMTabBarView.swift */; };
+		E94ADE201BF442E100777663 /* LmTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94ADE1F1BF442E100777663 /* LmTabBarButton.swift */; };
+		E94ADE221BF4457E00777663 /* TwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94ADE211BF4457E00777663 /* TwoController.swift */; };
+		E94ADE241BF4458A00777663 /* ThreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94ADE231BF4458A00777663 /* ThreeController.swift */; };
+		E94ADE261BF44B6C00777663 /* FourController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94ADE251BF44B6C00777663 /* FourController.swift */; };
+		E94ADE281BF44CB200777663 /* LmBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94ADE271BF44CB200777663 /* LmBadgeButton.swift */; };
+		E94ADE2B1BF465A200777663 /* main_badge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E94ADE291BF465A200777663 /* main_badge@2x.png */; };
+		E94ADE2C1BF465A200777663 /* main_badge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E94ADE2A1BF465A200777663 /* main_badge@3x.png */; };
+		E94ADE2E1BF4766300777663 /* NavBar64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E94ADE2D1BF4766300777663 /* NavBar64@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +51,6 @@
 /* Begin PBXFileReference section */
 		E94ADDDA1BF438CB00777663 /* 封装tabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "封装tabBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94ADDDD1BF438CB00777663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E94ADDDF1BF438CB00777663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E94ADDE21BF438CB00777663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E94ADDE41BF438CB00777663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E94ADDE71BF438CB00777663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E94ADDE91BF438CB00777663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +60,23 @@
 		E94ADDF91BF438CB00777663 /* 封装tabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "封装tabBarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94ADDFD1BF438CB00777663 /* __tabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __tabBarUITests.swift; sourceTree = "<group>"; };
 		E94ADDFF1BF438CB00777663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94ADE0D1BF4392B00777663 /* LMTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMTabBarController.swift; sourceTree = "<group>"; };
+		E94ADE0F1BF4394200777663 /* LmNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LmNavigationController.swift; sourceTree = "<group>"; };
+		E94ADE111BF4395800777663 /* OneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneController.swift; sourceTree = "<group>"; };
+		E94ADE131BF43B8600777663 /* navBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBar.png; sourceTree = "<group>"; };
+		E94ADE151BF43D5900777663 /* tabbar_profile_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_profile_selected@2x.png"; sourceTree = "<group>"; };
+		E94ADE161BF43D5900777663 /* tabbar_profile_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_profile_selected@3x.png"; sourceTree = "<group>"; };
+		E94ADE191BF43D6500777663 /* tabbar_profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_profile@2x.png"; sourceTree = "<group>"; };
+		E94ADE1A1BF43D6500777663 /* tabbar_profile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_profile@3x.png"; sourceTree = "<group>"; };
+		E94ADE1D1BF43DF200777663 /* LMTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMTabBarView.swift; sourceTree = "<group>"; };
+		E94ADE1F1BF442E100777663 /* LmTabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LmTabBarButton.swift; sourceTree = "<group>"; };
+		E94ADE211BF4457E00777663 /* TwoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoController.swift; sourceTree = "<group>"; };
+		E94ADE231BF4458A00777663 /* ThreeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeController.swift; sourceTree = "<group>"; };
+		E94ADE251BF44B6C00777663 /* FourController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourController.swift; sourceTree = "<group>"; };
+		E94ADE271BF44CB200777663 /* LmBadgeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LmBadgeButton.swift; sourceTree = "<group>"; };
+		E94ADE291BF465A200777663 /* main_badge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_badge@2x.png"; sourceTree = "<group>"; };
+		E94ADE2A1BF465A200777663 /* main_badge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_badge@3x.png"; sourceTree = "<group>"; };
+		E94ADE2D1BF4766300777663 /* NavBar64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBar64@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +127,10 @@
 		E94ADDDC1BF438CB00777663 /* 封装tabBar */ = {
 			isa = PBXGroup;
 			children = (
+				E9AE32BD1BF47AA60061E810 /* 图片 */,
+				E94ADE0C1BF438F300777663 /* view */,
+				E94ADE0B1BF438E800777663 /* controller */,
 				E94ADDDD1BF438CB00777663 /* AppDelegate.swift */,
-				E94ADDDF1BF438CB00777663 /* ViewController.swift */,
-				E94ADDE11BF438CB00777663 /* Main.storyboard */,
 				E94ADDE41BF438CB00777663 /* Assets.xcassets */,
 				E94ADDE61BF438CB00777663 /* LaunchScreen.storyboard */,
 				E94ADDE91BF438CB00777663 /* Info.plist */,
@@ -123,6 +154,44 @@
 				E94ADDFF1BF438CB00777663 /* Info.plist */,
 			);
 			path = "封装tabBarUITests";
+			sourceTree = "<group>";
+		};
+		E94ADE0B1BF438E800777663 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E94ADE0D1BF4392B00777663 /* LMTabBarController.swift */,
+				E94ADE0F1BF4394200777663 /* LmNavigationController.swift */,
+				E94ADE111BF4395800777663 /* OneController.swift */,
+				E94ADE211BF4457E00777663 /* TwoController.swift */,
+				E94ADE231BF4458A00777663 /* ThreeController.swift */,
+				E94ADE251BF44B6C00777663 /* FourController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		E94ADE0C1BF438F300777663 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E94ADE1D1BF43DF200777663 /* LMTabBarView.swift */,
+				E94ADE1F1BF442E100777663 /* LmTabBarButton.swift */,
+				E94ADE271BF44CB200777663 /* LmBadgeButton.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		E9AE32BD1BF47AA60061E810 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				E94ADE2D1BF4766300777663 /* NavBar64@2x.png */,
+				E94ADE131BF43B8600777663 /* navBar.png */,
+				E94ADE151BF43D5900777663 /* tabbar_profile_selected@2x.png */,
+				E94ADE161BF43D5900777663 /* tabbar_profile_selected@3x.png */,
+				E94ADE191BF43D6500777663 /* tabbar_profile@2x.png */,
+				E94ADE1A1BF43D6500777663 /* tabbar_profile@3x.png */,
+				E94ADE291BF465A200777663 /* main_badge@2x.png */,
+				E94ADE2A1BF465A200777663 /* main_badge@3x.png */,
+			);
+			name = "图片";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +298,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94ADE2E1BF4766300777663 /* NavBar64@2x.png in Resources */,
 				E94ADDE81BF438CB00777663 /* LaunchScreen.storyboard in Resources */,
+				E94ADE141BF43B8600777663 /* navBar.png in Resources */,
+				E94ADE1C1BF43D6500777663 /* tabbar_profile@3x.png in Resources */,
 				E94ADDE51BF438CB00777663 /* Assets.xcassets in Resources */,
-				E94ADDE31BF438CB00777663 /* Main.storyboard in Resources */,
+				E94ADE2C1BF465A200777663 /* main_badge@3x.png in Resources */,
+				E94ADE181BF43D5900777663 /* tabbar_profile_selected@3x.png in Resources */,
+				E94ADE2B1BF465A200777663 /* main_badge@2x.png in Resources */,
+				E94ADE1B1BF43D6500777663 /* tabbar_profile@2x.png in Resources */,
+				E94ADE171BF43D5900777663 /* tabbar_profile_selected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +332,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E94ADDE01BF438CB00777663 /* ViewController.swift in Sources */,
+				E94ADE121BF4395800777663 /* OneController.swift in Sources */,
+				E94ADE0E1BF4392B00777663 /* LMTabBarController.swift in Sources */,
+				E94ADE221BF4457E00777663 /* TwoController.swift in Sources */,
+				E94ADE261BF44B6C00777663 /* FourController.swift in Sources */,
+				E94ADE281BF44CB200777663 /* LmBadgeButton.swift in Sources */,
+				E94ADE101BF4394200777663 /* LmNavigationController.swift in Sources */,
+				E94ADE241BF4458A00777663 /* ThreeController.swift in Sources */,
+				E94ADE1E1BF43DF200777663 /* LMTabBarView.swift in Sources */,
+				E94ADE201BF442E100777663 /* LmTabBarButton.swift in Sources */,
 				E94ADDDE1BF438CB00777663 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +377,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E94ADDE11BF438CB00777663 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E94ADDE21BF438CB00777663 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E94ADDE61BF438CB00777663 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -484,6 +560,7 @@
 				E94ADE041BF438CB00777663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E94ADE051BF438CB00777663 /* Build configuration list for PBXNativeTarget "封装tabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +569,7 @@
 				E94ADE071BF438CB00777663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E94ADE081BF438CB00777663 /* Build configuration list for PBXNativeTarget "封装tabBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +578,7 @@
 				E94ADE0A1BF438CB00777663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
